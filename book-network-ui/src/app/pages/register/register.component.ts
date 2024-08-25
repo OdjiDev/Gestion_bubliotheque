@@ -30,7 +30,7 @@ export class RegisterComponent {
     })
       .subscribe({
         next: () => {
-          this.router.navigate(['activate-account']);
+           this.router.navigate(['Uactivate-account']);
         },
         error: (err) => {
           this.errorMsg = err.error.validationErrors;

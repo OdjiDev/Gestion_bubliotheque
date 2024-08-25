@@ -1,13 +1,13 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "OpenApi specification - Alibou",
+    "title": "OpenApi specification - OdjiDev",
     "description": "OpenApi documentation for Spring Security",
     "termsOfService": "Terms of service",
     "contact": {
-      "name": "Alibou",
-      "url": "https://aliboucoding.com/course",
-      "email": "contact@aliboucoding.com"
+      "name": "OdjiDev",
+      "url": "https://OdjiDevcoding.com/course",
+      "email": "contact@OdjiDevcoding.com"
     },
     "license": {
       "name": "Licence name",
@@ -21,7 +21,7 @@
       "description": "Local ENV"
     },
     {
-      "url": "https://aliboucoding.com/course",
+      "url": "https://OdjiDevcoding.com/course",
       "description": "PROD ENV"
     }
   ],
