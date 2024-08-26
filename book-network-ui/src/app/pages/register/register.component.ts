@@ -23,6 +23,7 @@ export class RegisterComponent {
     this.router.navigate(['login']);
   }
 
+
   register() {
     this.errorMsg = [];
     this.authService.register({
@@ -30,7 +31,8 @@ export class RegisterComponent {
     })
       .subscribe({
         next: () => {
-           this.router.navigate(['Uactivate-account']);
+          // Redirige vers la page de connexion après l'inscription réussie
+          this.router.navigate(['login']);
         },
         error: (err) => {
           this.errorMsg = err.error.validationErrors;

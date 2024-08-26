@@ -18,7 +18,7 @@ import { ReturnedBooksComponent } from './modules/book/pages/returned-books/retu
 const routes: Routes = [
   {
     path: 'login',
-    component:     ManageBookComponent,
+    component:     LoginComponent
   },
   {
     path: 'register',
